@@ -1,0 +1,11 @@
+[package]
+name = "elfinfo"
+version = "0.1.0"
+edition = "2021"
+authors = ["flippette <quangdatle2006@outlook.com>"]
+license = "GPL-3.0-only"
+
+[dependencies]
+nom.workspace = true
+derive-try-from-primitive.workspace = true
+thiserror.workspace = true

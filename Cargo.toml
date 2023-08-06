@@ -1,0 +1,14 @@
+[workspace]
+resolver = "2"
+members = [
+  "elfinfo",
+  "elfinfo-run",
+]
+
+[workspace.dependencies]
+nom = "7"
+derive-try-from-primitive = "1"
+thiserror = "1"
+eyre = "0.6"
+color-eyre = "0.6"
+owo-colors = "3.5"

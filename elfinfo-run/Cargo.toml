@@ -1,0 +1,13 @@
+[package]
+name = "elfinfo-run"
+version = "0.1.0"
+edition = "2021"
+authors = ["flippette <quangdatle2006@outlook.com>"]
+license = "GPL-3.0-only"
+
+[dependencies]
+elfinfo = { path = "../elfinfo" }
+eyre.workspace = true
+color-eyre.workspace = true
+nom.workspace = true
+owo-colors.workspace = true
